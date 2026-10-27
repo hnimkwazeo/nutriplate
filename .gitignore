@@ -1,0 +1,29 @@
+# Python / môi trường cục bộ
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Thông tin bí mật / cấu hình cá nhân
+.env
+.env.*
+!.env.example
+*.key
+
+# Kết quả chạy và dữ liệu lớn
+runs/
+data/raw/
+data/private/
+data/large/
+models/
+checkpoints/
+
+# IDE / hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
